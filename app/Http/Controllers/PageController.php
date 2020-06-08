@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 
-class FileController extends Controller
+class PageController extends Controller
 {
     /**
      * Handle the incoming request.
@@ -13,7 +13,7 @@ class FileController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function addFIle(Request $request)
+    public function addPage(Request $request)
     {
         $input = $request->all(); //store the post values in input array
         $errors = array(); //inialize an empty array to store errors
