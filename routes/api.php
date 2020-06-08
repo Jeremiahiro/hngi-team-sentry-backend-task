@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-Route::post('/add_page', 'AddFile');
+Route::post('/add_page', 'FileController@addFIle');
